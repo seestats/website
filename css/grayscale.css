@@ -166,7 +166,6 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
 }
@@ -195,6 +194,14 @@ a:focus {
 	background: url(../img/logo.png) no-repeat bottom center scroll;
     font-size: 40px;
 	height: 120px;
+}
+
+.seeLogo {
+	background: url(../img/logo.png) no-repeat;
+	background-size: contain;
+    height: 131px;
+	max-width: 650px;
+    margin: 0 auto;
 }
 
 .intro .intro-body .intro-text {
